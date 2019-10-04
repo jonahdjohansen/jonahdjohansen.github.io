@@ -1,0 +1,7 @@
+.gamebox {
+    display: inline-flex;
+}
+
+.gamebox div {
+    align-content: center;
+}
