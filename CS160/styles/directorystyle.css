@@ -1,0 +1,53 @@
+#main {
+    color: white;
+}
+
+#directoryindex {
+    background-color: #1d1e22;
+    width: 95vw;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+#directoryindex dl {
+    border: red 2px solid;
+    overflow: hidden;
+    height: 40px;
+    transition: height 1s, background-color 1.5s;
+    
+}
+
+#directoryindex dl:hover {
+    height: 300px;
+    background-color: #393f4d;
+}
+
+#directoryindex a {
+    border: 2px solid red;
+    display: inline-block;
+    width: 10vw;
+    height: inherit;
+    overflow: hidden;
+    transition: width 1s, background-color 1.5s, visibility 1s;
+}
+
+#directoryindex a:hover {
+    width: 50vw;
+}
+
+#directoryindex a * {
+    visibility: hidden;
+}
+
+#directoryindex a:hover * {
+    visibility: visible;
+}
+
+#uofo:hover {
+    background-color: #124734;
+}
+
+#directoryindex a img {
+    width: 50vw;
+    height: 250px;
+}

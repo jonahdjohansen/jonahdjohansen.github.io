@@ -1,0 +1,28 @@
+main {
+    margin-top: 100px;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  .osu {
+    background-color: #D73F09;
+  }
+
+  .UofO {
+    background-color: #124734;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .UofO:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  .psu {
+    background-color: #6C8010;
+  }

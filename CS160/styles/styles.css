@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #123456;
+    background-color: #1d1e22;
+    box-sizing: border-box;
 }
 
 .gamebox {
@@ -41,13 +42,17 @@ main {
     width: 30%;
 }
 
-
-
-
 .flutter {
     background-color: white;
     width: 50%;
     display: inline-block;
     position: absolute;
     right: 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
 }

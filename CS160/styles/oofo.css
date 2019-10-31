@@ -1,0 +1,70 @@
+body {
+    overflow: hidden;
+}
+
+#collegewrite {
+    border: 5px solid #554E4A;
+    background-color: #036936;
+    width: 90vw;
+    height: 80vh;
+    position: relative;
+    top: -10px;
+    margin: 0px auto;
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+#collegewrite #intro {
+
+}
+
+#collegewrite #summary {
+
+}
+
+#collegewrite #schedule {
+    color: #F1F2F2;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#schedule table {
+    background-color: #20883F;
+    width: 80vw;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+#schedule h3 {
+    margin: 0px;
+}
+
+#schedule h4 {
+    margin: 0px;
+}
+
+th {
+    column-span: all;
+    text-align: center;
+}
+
+#collegewrite #schedule td {
+    text-align: center;
+    background-color: #235E39;
+    border-radius: 1px;
+    width: 25%;
+    border: 10px solid #036936;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#collegewrite #additional {
+    border: 2px solid green;
+}
